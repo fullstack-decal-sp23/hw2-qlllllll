@@ -1,0 +1,165 @@
+/* BEGIN SETUP (you will not need to use these) */
+#intro {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 50px;
+}
+
+.flags {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
+}
+/* END SETUP */
+
+/* Classes that you might find useful */
+/* You may also have to implement your own classes */
+
+.flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.twovert {
+  height: 50%;
+}
+
+.threevert {
+}
+
+.threehoriz {
+  width: 33.3%;
+}
+
+.narrow {
+  height: 17.5%;
+}
+
+.wide {
+  height: 30%;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 85px;
+  top: 50px;
+}
+
+/* Colors */
+
+/* QUESTION 1 */
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.black {
+  background-color: #000;
+}
+
+/* BEGIN QUESTION 2 */
+
+.thailand-red {
+  /* TODO */
+}
+
+.thailand-white {
+  /* TODO */
+}
+
+.thailand-blue {
+  /* TODO */
+}
+
+/* END QUESTION 2 */
+
+/* BEGIN QUESTION 3 */
+
+.romania-blue {
+  background-color: #002c84;
+}
+
+.romania-yellow {
+  background-color: #ffcf00;
+}
+
+.romania-red {
+  background-color: #e10017;
+}
+
+/* END QUESTION 3 */
+
+/* QUESTION 4 */
+.mexico-green {
+  background-color: #006341;
+}
+
+.mexico-img {
+  /* TODO */
+}
+
+.mexico-red {
+  background-color: #ce1126;
+}
+
+/* QUESTION 6 */
+.margin-container {
+  height: 300px;
+  width: 1030px;
+  border-style: solid;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* For margin practice */
+.flag1 {
+  background-color: red;
+  /* TODO */
+}
+
+.flag2 {
+  background-color: blue;
+  /* TODO */
+}
+/* For padding practice */
+.padding-container {
+  box-sizing: border-box;
+  background-color: lightblue;
+  background-clip: content-box, padding-box;
+  /* TODO */
+}
