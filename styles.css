@@ -20,6 +20,16 @@ h2 {
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
 
+.label {
+  color: blue;
+  transition: transform 0.5s 0.25s ease;
+}
+
+.label:hover {
+  color: orange;
+  font-size:large;
+}
+
 .flag {
   height: 300px;
   width: 500px;
@@ -32,10 +42,11 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
-  width: 33.3%;
+  width: 33.33%;
 }
 
 .narrow {
@@ -58,6 +69,13 @@ h2 {
 /* Colors */
 
 /* QUESTION 1 */
+.red{
+  background-color: red;
+}
+
+#white{
+  background-color: #fff;
+}
 
 .orange {
   background-color: orange;
@@ -75,7 +93,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -94,15 +112,20 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  height: 16.67%;
+  background-color: #B5002D;
 }
 
 .thailand-white {
   /* TODO */
+  height: 16.67%;
+  background-color: white;
 }
 
 .thailand-blue {
   /* TODO */
+  height: 33.33%;
+  background-color: #2E2A4C;
 }
 
 /* END QUESTION 2 */
@@ -129,7 +152,8 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  /* TODO */  
+  align-self:center;
 }
 
 .mexico-red {
@@ -146,15 +170,19 @@ h2 {
   justify-content: center;
 }
 
+
+
 /* For margin practice */
 .flag1 {
   background-color: red;
   /* TODO */
+  margin-right:5px;
 }
 
 .flag2 {
   background-color: blue;
   /* TODO */
+  margin-left:5px;
 }
 /* For padding practice */
 .padding-container {
@@ -162,4 +190,5 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+  padding:30px;
 }
